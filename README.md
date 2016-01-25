@@ -16,7 +16,12 @@ sudo pip install snapconnect -i https://update.synapse-wireless.com/pypi/
 sudo pip install tornado
 ```
 
-You then must edit the [SN173_Demo_Server.py](SN173_Demo_Server.py) file to change the `SN173_Addr` to your SN173 MAC address. 
+You then must edit the [SN173_Demo_Server.py](SN173_Demo_Server.py) file to change the `SN173_Addr` to your SN173 MAC address:
+
+```python
+# Enter the address for the target SN173 board here:
+SN173_Addr = "\x06\x27\x01"   
+```
 
 Finally, run the application by executing the script as sudo: 
 
