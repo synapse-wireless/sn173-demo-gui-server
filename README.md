@@ -55,10 +55,3 @@ to locate the IP address assigned to your Ethernet Port.
 Open a web browser, and point to the E20’s URL:  http://[E20_IP_Addr]
 
 The web page will display a picture SN173 board. You can click the buttons in the web page to enable the LEDs 1-4 or you can click the buttons on the SN173. The two interfaces remain in sync because the SN173 sends a message on each button press (physical or virtual) that the gateway hears and updates the status of the LEDs. The SN173 also sends a message every 10 seconds to notify the gateway of the LED status.
-
-## Exploring the Demo
-Full source code for this example is available on GitHub here: https://github.com/synapse-wireless/demo-kits
-
-The Synapse Portal IDE will allow complete embedded module development, as well as wireless sniffer capability – download latest version here: https://forums.synapse-wireless.com/showthread.php?t=9
-
-The web application is a basic Python program built with high-performance libraries, Tornado and SNAP Connect. The JavaScript/HTML is kept deliberately simple for ease of understanding, although it showcases a low-latency websocket-based technique. This can be easily extended to REST interfaces and other web/backend approaches to fit application requirements.
