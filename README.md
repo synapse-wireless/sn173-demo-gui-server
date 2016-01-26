@@ -58,3 +58,6 @@ The web page will display a picture SN173 board. You can click the buttons in th
 
 ## Why Tornado?
 For more information on why Tornado is used as SNAPconnect's scheduler, please take a look at the [TORNADO.md](TORNADO.md) file in this repo.
+
+
+<!-- meta-tags: vvv-e20, vvv-sn173, vvv-sm220, vvv-snapconnect, vvv-js, vvv-html, vvv-python, vvv-example -->
