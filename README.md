@@ -55,3 +55,6 @@ to locate the IP address assigned to your Ethernet Port.
 Open a web browser, and point to the E20’s URL:  http://[E20_IP_Addr]
 
 The web page will display a picture SN173 board. You can click the buttons in the web page to enable the LEDs 1-4 or you can click the buttons on the SN173. The two interfaces remain in sync because the SN173 sends a message on each button press (physical or virtual) that the gateway hears and updates the status of the LEDs. The SN173 also sends a message every 10 seconds to notify the gateway of the LED status.
+
+## Why Tornado?
+For more information on why Tornado is used as SNAPconnect's scheduler, please take a look at the [TORNADO.md](TORNADO.md) file in this repo.
