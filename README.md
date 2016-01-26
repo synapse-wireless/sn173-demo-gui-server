@@ -1,5 +1,5 @@
 ![](https://cloud.githubusercontent.com/assets/1317406/12406044/32cd9916-be0f-11e5-9b18-1547f284f878.png)
-# E20 Kit2 Demo
+# E20 Example - SN173 Demo GUI Server
 
 This demonstration kit showcases the following products:
 
