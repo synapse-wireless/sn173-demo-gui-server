@@ -6,6 +6,18 @@ This demonstration kit showcases the following products:
 - SNAP Connect E20 (using DHCP on the Ethernet Port and the SNAP radio)
 - SN173 Prototyping board with SM220 module
 
+## What This Example Does
+
+The SNAP Connect E20 gateway serves up a webpage displaying an image of a Synapse SN173 Prototyping board with buttons and LEDs that can be clicked on to change the state of a physical SN173. Pressing the buttons on the physical SN173 will also update the LEDs on the webpage in realtime.
+
+Full source code for this example is available on GitHub here: 
+
+> https://github.com/synapse-wireless/e20-gateway-hosted-webserver
+
+The Synapse Portal IDE will allow complete embedded module development, as well as wireless sniffer capability – download the latest version here: 
+
+> https://forums.synapse-wireless.com/showthread.php?t=9
+
 ## Gateway Server Installation
 The kit (or assembled parts) is upgradeable to the demonstration application. Simply power up the E20 and load the software onto the E20 in the snap user directory. 
 
@@ -30,7 +42,7 @@ sudo python SN173_Demo_Server.py
 ```
 
 ## SN173 Script Installation 
-Download and install Portal (found elsewhere). Next copy the SN173DemoLedBtns.py to your Portal/snappyImages directory. Connect the SN173 to your PC via the mini-USB port. Now you can connect Portal to the SN173 as a bridge node and download the script (SN173DemoLedBtns.py). Use a PC or mobile device to connect to the E20’s IP address in your browser (Note you will need to be on the same network):
+First, download and install Portal and copy the SN173DemoLedBtns.py to your Portal/snappyImages directory. Connect the SN173 to your PC via the mini-USB port. Now you can connect Portal to the SN173 as a bridge node and download the script (SN173DemoLedBtns.py). Use a PC or mobile device to connect to the E20’s IP address in your browser (Note you will need to be on the same network):
 
 To find your E20’s IP address consult the E20 User’s Guide for login information and issue the command:
 
