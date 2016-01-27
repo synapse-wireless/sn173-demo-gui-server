@@ -12,7 +12,7 @@ The SNAP Connect E20 gateway serves up a webpage displaying an image of a Synaps
 
 Full source code for this example is available on GitHub here: 
 
-> https://github.com/synapse-wireless/e20-gateway-hosted-webserver
+> https://github.com/synapse-wireless/sn173-demo-gui-server
 
 The Synapse Portal IDE will allow complete embedded module development, as well as wireless sniffer capability – download the latest version here: 
 
