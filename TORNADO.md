@@ -1,4 +1,5 @@
-![](https://cloud.githubusercontent.com/assets/1317406/12406044/32cd9916-be0f-11e5-9b18-1547f284f878.png)
+[![](https://cloud.githubusercontent.com/assets/1317406/12406044/32cd9916-be0f-11e5-9b18-1547f284f878.png)](http://www.synapse-wireless.com/)
+
 # Using Tornado's ioloop for SNAPconnect's scheduler
 
 Why would you want to do use Tornado's ioloop for the scheduler? Tornado has many built in advantages for addressing the use of sockets and connections to external devices. An instance of using Tornado with SNAPconnect would be to have a local web server running that showcases data that is being polled from the SNAP network. Another might be to actually post data to a cloud server and have an open socket for connections to be received from the cloud server while still processing efficiently all the SNAP network details. Tornado uses filedescriptors in general for addressing socket communications and on a Unix clone (Linux, BSD, etc.) it will use them for processing serial data as well. This use of the ioloop for serial data allowing SNAPconnect to perform a standard select on serial data allows for more efficient handling of incoming packets from the connected serial port.
